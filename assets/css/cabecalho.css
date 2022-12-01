@@ -1,0 +1,38 @@
+.cabeçalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin: 20px 50px;
+    font-size: 16px
+}
+
+.cabeçalho__menu--item {
+    text-decoration: none;
+    font-family: 'Inter';
+    color: #667085;
+    padding: 0 16px;
+}
+
+.cabeçalho__login {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 16px;
+    padding: 0 16px;
+}
+
+.cabeçalho__login--entrar {
+    text-decoration: none;
+    color:#667085;
+    padding: 0 16px;
+}
+
+.cabeçalho__login--cadastrar {
+    color: #FFFFFF;
+    padding: 0.8em;
+    background-color: #8E2424;
+    ;
+    border-radius: 10%;
+    text-decoration: none;
+}

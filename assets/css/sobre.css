@@ -1,0 +1,34 @@
+.sobre {
+    width: 100%;
+    height: 407px;
+    top: 80px;
+    padding: 96px 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.sobre__titulo {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 48px;
+    color: #101828;
+}
+
+.sobre__titulo-menor {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    color: #8E2424;
+}
+
+.sobre__titulo-texto {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size:20px;
+    color: #667085;
+    height: 60px;
+    width: 791px;
+    left: 0px;
+    top: 12px;
+}
