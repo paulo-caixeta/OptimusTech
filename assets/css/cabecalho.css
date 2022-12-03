@@ -1,38 +1,42 @@
 .cabeçalho {
-    display: flex;
-    justify-content: space-between;
     align-items: center;
+    display: flex;
+    font-size: 16px;
+    height: 80px;
+    justify-content: space-between;
+    padding: 0 96px ;
     position: relative;
-    margin: 20px 50px;
-    font-size: 16px
+    width: auto;
+}
+
+.cabeçalho__logo {
 }
 
 .cabeçalho__menu--item {
-    text-decoration: none;
-    font-family: 'Inter';
     color: #667085;
+    font-family: 'Inter';
     padding: 0 16px;
+    text-decoration: none;
 }
 
 .cabeçalho__login {
+    align-items: center;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     margin: 0 16px;
-    padding: 0 16px;
+
 }
 
 .cabeçalho__login--entrar {
-    text-decoration: none;
     color:#667085;
     padding: 0 16px;
+    text-decoration: none;
 }
 
 .cabeçalho__login--cadastrar {
+    background-color: #8E2424;
+    border-radius: 10%;
     color: #FFFFFF;
     padding: 0.8em;
-    background-color: #8E2424;
-    ;
-    border-radius: 10%;
     text-decoration: none;
 }

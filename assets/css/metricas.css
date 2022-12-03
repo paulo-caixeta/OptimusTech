@@ -1,0 +1,44 @@
+.metricas {
+    display: flex;
+    gap: 64px;
+    height: auto;
+    justify-content: space-between;
+    padding: 0 96px;
+    width: auto;
+    text-align: left;
+}
+
+.metricas__titulo {
+    color: #101828;
+    font-family: 'Inter';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    height: 28px;
+    line-height: 28px;
+    padding: 12px 0 8px;
+    width: 280px;
+}
+
+.metricas__indicador {
+    color: #8E2424;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    height: 72px;
+    letter-spacing: -0.02em;
+    line-height: 72px;
+    width: 280px;
+}
+
+.metricas__texto {
+    color: #667085;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    height: 48px;
+    line-height: 24px;
+    width: 280px;
+}
