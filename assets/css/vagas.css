@@ -1,0 +1,56 @@
+.vagas {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 1798px;
+    width: auto;
+    padding-top: 100px;
+}
+
+.vagas__titulo-menor {
+    align-items: center;
+    background: rgba(142, 36, 36, 0.05);
+    border-radius: 16px;
+    color: #8E2424;
+    display: flex;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    justify-content: center;
+    line-height: 20px;
+    height: 28px;
+    padding: 4px, 12px, 4px, 12px;
+    text-align: center;
+    width: 125px;
+}
+
+.vagas__titulo {
+    height: 44px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    padding: 16px 0 20px 0;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #101828;
+}
+
+.vagas__texto {
+    color: #667085;
+    font-family: 'Inter';
+    font-size:20px;
+    font-style: normal;
+    font-weight: 400;
+    width: fill;
+}
+
+.vagas__imagem {
+    width: 1216px;
+    height: 400px;
+    left: 112px;
+    top: 298px;
+    padding-top: 64px;
+}

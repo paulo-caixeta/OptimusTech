@@ -3,13 +3,12 @@
     display: flex;
     font-size: 16px;
     height: 80px;
+    width: 1216px;
     justify-content: space-between;
-    padding: 0 96px ;
-    position: relative;
-    width: auto;
 }
 
 .cabeçalho__logo {
+    justify-content: flex-start;
 }
 
 .cabeçalho__menu--item {
@@ -22,9 +21,7 @@
 .cabeçalho__login {
     align-items: center;
     display: flex;
-    justify-content: space-between;
     margin: 0 16px;
-
 }
 
 .cabeçalho__login--entrar {
