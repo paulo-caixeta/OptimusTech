@@ -1,7 +1,9 @@
 .cabeçalho {
     align-items: center;
     display: flex;
+    font-family: 'Inter';
     font-size: 16px;
+    font-weight: 500;
     height: 80px;
     width: 1216px;
     justify-content: space-between;
@@ -13,7 +15,6 @@
 
 .cabeçalho__menu--item {
     color: #667085;
-    font-family: 'Inter';
     padding: 0 16px;
     text-decoration: none;
 }
