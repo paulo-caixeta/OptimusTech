@@ -1,0 +1,80 @@
+.depoimentos {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px 0px 96px;
+    width: 1440px;
+    height: 500px;
+    background-color: #FFFFFF;
+}
+
+.depoimentos__cartao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px;
+    width: 1216px;
+    background: rgba(196, 25, 25, 0.03);
+    border-radius: 16px;
+}
+
+.depoimentos__titulo {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #8E2424;
+}
+
+.depoimentos__texto {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #101828;
+    width: 1088px;
+}
+
+.depoimentos__perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1088px;
+    height: 120px;
+    padding: 0;
+}
+
+.depoimentos__imagem {
+    width: 56px;
+    height: 56px;
+    align-items: center;
+    padding: 0px 0 16px;
+}
+
+.depoimentos__nome {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #101828;
+    padding: 0;
+    width: 1088px;
+    text-align: center;
+}
+
+.depoimentos__cargo {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #667085;
+    padding: 0;
+    width: 1088px;
+    text-align: center;
+}
