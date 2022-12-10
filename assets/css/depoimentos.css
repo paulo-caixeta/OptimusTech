@@ -13,6 +13,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     padding: 64px;
     width: 1216px;
     background: rgba(196, 25, 25, 0.03);
@@ -41,16 +42,11 @@
     width: 1088px;
 }
 
-.depoimentos__perfil {
+.depoimentos__imagem {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    width: 1088px;
-    height: 120px;
-    padding: 0;
-}
-
-.depoimentos__imagem {
+    justify-content: center;
+    text-align: center;
     width: 56px;
     height: 56px;
     align-items: center;
